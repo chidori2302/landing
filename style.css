@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(0, 173, 253, 0.767) , rgba(255, 166, 0, 0.767) ), url(https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/278419938_3064284227234064_494247947933660885_n.jpg?stp=dst-jpg_p640x640&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Mklt0jg4q7gAX8IxLO6&_nc_ht=scontent.fhan2-4.fna&oh=00_AT9WMYbAIMVeANMYV1lP-dN0S6pwFdIis7XZ_YdDTblw3Q&oe=62B0C79B);
+    background-size: cover;
+    font-size: 1.3rem;
+}
+.top {
+    background-color: #ffa400;
+    color: #042940;
+    margin: 0px;
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: 600px;
+}
+.avatar {
+    
+    text-align: center;
+    
+}
+
+img {
+
+    border: 10px solid #042940;
+    border-radius: 50%;
+    
+    /* padding: 10px; */
+    margin: 30px auto 5px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info {
+    position: absolute;
+    width: 30%;
+    right: 5%;
+    top: 100px;
+    margin: 20px
+}
+
+.question{text-align: center;}
+
+h3 {
+    background-image: linear-gradient( to bottom, #201010, #1c3d0f);
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+a{color: #042940;}
+
+.button{ text-align: center }
+
+.Link {
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #042940;
+    padding: 10px 20px;
+    margin: 20px;
+    font-style: bold;
+    transition: background-color 0.5s linear;
+}
+.Link--1:hover {
+    color: azure;
+    background-color: blue;
+    margin: 20px;
+
+}
+.Link--2:hover {
+    color: blue;
+    background-color: white;
+    margin: 20px;
+
+}
+.Link--3:hover {
+    color:orange;
+    background-color: black; 
+    margin: 20px;
+
+}
+iframe{
+    /* margin-top: -5rem; */
+    
+    width: 40rem;
+    height: 22.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.status {
+    width: 40rem; height: 28rem;
+   
+    margin: 2rem auto auto auto;
+}
+
+.video{
+    text-align: center;
+}
+
+footer{
+    background-color: #00aefd;
+    padding: 1px 40px 5px 30px;
+    margin: 0px;
+    
+    color: #201010;
+    font-size: 1.5rem;
+    position: relative;
+    
+}
+.map {width: 20rem; height: 15rem; margin: 20px;}
+
+.last{
+    
+    position: absolute;
+    left: 22rem;
+    margin: 3rem;
+    line-height: 30px;
+}
